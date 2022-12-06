@@ -1,0 +1,23 @@
+nav {
+  padding-top: 60px !important;
+}
+
+ul {
+  padding-right: 150px;
+}
+
+.navbar-brand {
+  padding: 200px;
+}
+
+.nav-item {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding-right: 35px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
