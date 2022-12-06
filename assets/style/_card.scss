@@ -1,7 +1,35 @@
 @import "./variables";
 
 .card {
-    width: 25rem;
+    width: 24.8rem;
     margin-top: 43px;
+    padding-left: 10px;
     border-radius: none;
+    background-color: var(--very-dark-blue) !important;
+}
+
+.card-title {
+    color: var(--soft-orange);
+    font-weight: 700;
+    @include font_family();
+}
+
+.card-text{
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    @include font_family();
+}
+
+.list-group-item {
+    background-color: var(--very-dark-blue) !important;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--off-white);
+    @include font_family();
+
+    a:hover{
+        color: var(--soft-orange);
+    }
 }
