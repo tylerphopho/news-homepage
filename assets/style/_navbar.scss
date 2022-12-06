@@ -1,15 +1,19 @@
+@import "./variables";
+
 nav {
     padding-top: 60px !important;
+    color: hsl(233, 8%, 79%) !important
+    ;
 }
-ul {
-    padding-right: 150px;
+.navbar-nav .ml-auto {
+    padding-right: 280px;
 }
 
 .navbar-brand {
     padding: 200px;
 }
 .nav-item {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     padding-right: 35px;
+    @include font_family();
 }
