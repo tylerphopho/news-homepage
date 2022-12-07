@@ -9,7 +9,7 @@
 
 nav {
   padding-top: 60px !important;
-  padding-right: 350px !important;
+  padding-right: 407px !important;
   color: hsl(233deg, 8%, 79%) !important;
 }
 
@@ -19,18 +19,18 @@ nav {
 
 .nav-item {
   font-weight: 400;
-  padding-right: 35px;
+  padding-right: 24px;
   font-family: "Inter", sans-serif;
+}
+
+.nav-link:hover {
+  color: var(--soft-red) !important;
 }
 
 #desktop_img {
   padding-left: 214px;
   padding-top: 45px;
   width: 100%;
-}
-
-.col-sm-8 {
-  padding-right: -100;
 }
 
 :root {
@@ -43,15 +43,15 @@ nav {
 }
 
 .card {
-  width: 24.8rem;
+  width: 22rem;
   margin-top: 43px;
-  padding-left: 10px;
   border-radius: none;
   background-color: var(--very-dark-blue) !important;
 }
 
 .card-title {
   color: var(--soft-orange);
+  font-size: 40px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
@@ -59,7 +59,7 @@ nav {
 .card-text {
   font-size: 15px;
   padding-left: 20px;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--dark-grayish-blue);
   font-family: "Inter", sans-serif;
 }
@@ -67,12 +67,18 @@ nav {
 .list-group-item {
   background-color: var(--very-dark-blue) !important;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--off-white);
   font-family: "Inter", sans-serif;
 }
-.list-group-item a:hover {
+.list-group-item:hover {
   color: var(--soft-orange);
+}
+
+hr {
+  display: block !important;
+  border-top: 1px solid var(--dark-grayish-blue) !important;
+  margin: 20px;
 }
 
 :root {

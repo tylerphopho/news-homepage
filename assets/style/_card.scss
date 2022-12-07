@@ -1,15 +1,15 @@
 @import "./variables";
 
 .card {
-    width: 24.8rem;
+    width: 22rem;
     margin-top: 43px;
-    padding-left: 10px;
     border-radius: none;
     background-color: var(--very-dark-blue) !important;
 }
 
 .card-title {
     color: var(--soft-orange);
+    font-size: 40px;
     font-weight: 700;
     @include font_family();
 }
@@ -17,7 +17,7 @@
 .card-text{
     font-size: 15px;
     padding-left: 20px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--dark-grayish-blue);
     @include font_family();
 }
@@ -25,11 +25,17 @@
 .list-group-item {
     background-color: var(--very-dark-blue) !important;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--off-white);
     @include font_family();
 
-    a:hover{
+    &:hover {
         color: var(--soft-orange);
     }
+}
+
+hr {
+    display: block !important;
+    border-top: 1px solid var(--dark-grayish-blue) !important;
+    margin: 20px
 }

@@ -2,15 +2,18 @@
 
 nav {
     padding-top: 60px !important;
-    padding-right: 350px !important;
+    padding-right: 407px !important;
     color: hsl(233, 8%, 79%) !important;
 }
-
 .navbar-brand {
     padding: 200px;
 }
 .nav-item {
     font-weight: 400;
-    padding-right: 35px;
+    padding-right: 24px;
     @include font_family();
+}
+
+.nav-link:hover {
+    color: var(--soft-red) !important;
 }
