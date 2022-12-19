@@ -1,41 +1,27 @@
 @import "./variables";
 
 .card {
-    width: 22rem;
-    margin-top: 43px;
-    border-radius: none;
-    background-color: var(--very-dark-blue) !important;
+    background-color: var(--very-dark-blue)  !important;
+}
+
+.title {
+    color: var(--soft-orange);
+    padding-bottom: 20px;
+    font-weight: 700;
+    @include font-family();
 }
 
 .card-title {
-    color: var(--soft-orange);
-    font-size: 40px;
-    font-weight: 700;
-    @include font_family();
-}
-
-.card-text{
-    font-size: 15px;
-    padding-left: 20px;
-    font-weight: 700;
-    color: var(--dark-grayish-blue);
-    @include font_family();
-}
-
-.list-group-item {
-    background-color: var(--very-dark-blue) !important;
-    font-size: 24px;
-    font-weight: 700;
     color: var(--off-white);
-    @include font_family();
+    font-weight: 400;
+    @include font-family();
+}
 
-    &:hover {
-        color: var(--soft-orange);
-    }
+.card-text {
+    color: var(--grayish-blue);
+    padding-bottom: 10px;
 }
 
 hr {
-    display: block !important;
     border-top: 1px solid var(--dark-grayish-blue) !important;
-    margin: 20px
 }
