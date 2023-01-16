@@ -4,37 +4,55 @@
     padding-top: 50px;
 }
 
-// .paragraph_header {
-//     float: left;
-//     width: 50%;
-//     padding-top: 30px;
-//     padding-left: 214px;
-//     font-size: 50px;
-//     font-weight: 800;
-//     line-height: 55px;
-//     position: relative;
-//     color: var(--very-dark-blue);
-//     @include font_family();
-// }
+.content_container {
+    padding-top: 40px;
+}
 
-// .paragraph {
-//     float: left;
-//     width: 39%;
-//     padding-top: 30px;
-//     padding-left: 90px;
-//     font-size: 15px;
-//     word-spacing: 2px;
-//     @include font_family();
-// }
+.header {
+    font-weight: 800;
+    font-size: 3.6em;
+    line-height: 40px;
+    word-spacing: -10px;
+    color: var(--very-dark-blue);
+    @include font_family();
+}
 
-// .paragraph_button {
-//     float: left;
-//     width: 220px;
-//     height: 55px;
-//     margin-top: 50px !important;
-//     letter-spacing: 3px;
-//     color: var(--off-white);
-//     background-color: var(--soft-red);
-//     font-weight: 700 !important;
-//     @include font_family();
-// }
+.header2 {
+    font-weight: 800;
+    font-size: 3.6em;
+    line-height: 40px;
+    word-spacing: -8px;
+    color: var(--very-dark-blue);
+    @include font_family();
+}
+
+.header3 {
+    font-weight: 800;
+    font-size: 3.6em;
+    line-height: 40px;
+    word-spacing: -10px;
+    color: var(--very-dark-blue);
+    @include font_family();
+}
+
+.paragraph {
+    color: var(--very-dark-blue);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    word-spacing: 2.7px;
+    padding-bottom: 40px;
+    @include font-family();
+}
+
+.btn {
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    height: 30%;
+    width: 54%;
+    letter-spacing: 5px;
+    border-color: red;
+    @include font-family(); 
+}

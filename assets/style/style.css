@@ -35,6 +35,59 @@ nav {
   padding-top: 50px;
 }
 
+.content_container {
+  padding-top: 40px;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 3.6em;
+  line-height: 40px;
+  word-spacing: -10px;
+  color: var(--very-dark-blue);
+  font-family: "Inter", sans-serif;
+}
+
+.header2 {
+  font-weight: 800;
+  font-size: 3.6em;
+  line-height: 40px;
+  word-spacing: -8px;
+  color: var(--very-dark-blue);
+  font-family: "Inter", sans-serif;
+}
+
+.header3 {
+  font-weight: 800;
+  font-size: 3.6em;
+  line-height: 40px;
+  word-spacing: -10px;
+  color: var(--very-dark-blue);
+  font-family: "Inter", sans-serif;
+}
+
+.paragraph {
+  color: var(--very-dark-blue);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  word-spacing: 2.7px;
+  padding-bottom: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.btn {
+  background-color: var(--soft-red);
+  color: var(--off-white);
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  height: 30%;
+  width: 54%;
+  letter-spacing: 5px;
+  border-color: red;
+  font-family: "Inter", sans-serif;
+}
+
 :root {
   --soft-orange: hsl(35, 77%, 62%);
   --soft-red: hsl(5, 85%, 63%);
@@ -46,6 +99,10 @@ nav {
 
 .card {
   background-color: var(--very-dark-blue) !important;
+}
+
+.card-body {
+  padding: 1rem !important;
 }
 
 .title {
